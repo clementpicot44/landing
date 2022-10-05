@@ -1,12 +1,12 @@
 body {
   font-family: Overpass;
-  color: #404042;
-  font-size: 18px;
+  color:  #FF0000;
+  font-size: 22px;
   margin: 0;
 }
 
 h1, h2, h3 {
-  color: #404042;
+  color: #407da2;
   font-family: Chivo;
 }
 
@@ -16,39 +16,41 @@ h1, h2, h3 {
 }
 
 .banner {
-  background-image: url('images/barca.jpg');
-  background-size: cover;
+  background-image: url('images/barca2.jpeg');
+  background-size: center;
   background-position: center;
   padding: 150px 0;
   text-align: center;
 }
 
 .banner h1 {
-  color: mediumblue;
-  font-size: 45px;
+  color:  #00008B;
+  font-size: 55px;
   margin: 0;
   transition-property: 4;
+  opacity: 100px;
 }
 
 .banner p {
-  color: white;
-  font-size: 24px;
-  opacity: 0.7;
+  color:  #00008B;
+  font-size: 29px;
+  height: 19px;
+  opacity: 1000px;
 }
 .btn-blue {
-  background-color: #1A48E3;
+  background-color: #FF0000 ;
   color: white;
-  padding: 16px 48px;
+  padding: 15px 30px;
   border-radius: 4px;
-  display: inline-block;
+  display: run-in;
   text-decoration: none;
   transition: .3s;
-  font-size: 20px;
+  font-size: 15px;
   font-weight: bold;
 }
 
 .btn-blue:hover {
-  background-color: #0D1EC6;
+  background-color:#00008B;
   color: white;
 }
 
@@ -62,10 +64,10 @@ h1, h2, h3 {
 }
 
 .card-white img {
-  width: 100%;
-  height: 180px;
-  object-fit: cover;
-  border-radius: 4px;
+  width: 80%;
+  height: 300px;
+  object-fit: center;
+  border-radius: 6px;
 }
 
 .card-white h3 {
@@ -73,30 +75,30 @@ h1, h2, h3 {
 }
 
 .footer {
-  background: #404042;
-  color: white;
+  background: #00008B;
+  color: whitesmoke;
   padding: 10px 0px;
 }
 
 .cards {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 16px;
+  grid-gap: 20px;
 }
 
 
 @media (min-width: 300px) {
   .container {
-    width: 400px;
+    width: 500px;
   }
   .cards {
     grid-template-columns: 1fr;
   }
 }
 
-@media (min-width: 700px) {
+@media (min-width: 5000px) {
   .container {
-    width: 600px;
+    width: 400px;
   }
   .cards {
     grid-template-columns: 1fr 1fr;
@@ -105,7 +107,7 @@ h1, h2, h3 {
 
 @media (min-width: 1000px) {
   .container {
-    width: 900px;
+    width: 1500px;
   }
   .cards {
     grid-template-columns: 1fr 1fr 1fr;
